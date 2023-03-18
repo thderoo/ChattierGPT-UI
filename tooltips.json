@@ -1,0 +1,10 @@
+{
+  "api_key": "An API key is a unique identifier used to authenticate and access OpenAI's services (including ChatGPT). To create one, sign up for an OpenAI account and navigate to the dashboard to generate your API key.",
+  "system_prompt": "System prompt is the initial text or instruction given to a language model to start generating a response. It will always be in the context and will influence \"who\" the model generates text as.",
+  "temperature": "Temperature is a parameter that controls the creativity of a language model's output. Lower temperatures result in more predictable and conservative responses, while higher temperatures result in more diverse and surprising responses.",
+  "top_p": "Top P is a parameter that controls the diversity of a language model's output. It limits the probability distribution of the vocabulary to the top P (P is a probability) most likely tokens, ensuring higher quality but potentially less diverse responses.",
+  "max_tokens": "Maximum length is a parameter that limits the number of tokens in the generated output of a language model. It helps control the length of the response and can prevent the model from generating overly verbose or irrelevant output. It also has an impact on token cost.",
+  "max_context_tokens": "Maximum context length is a parameter that limits the number of tokens used as input to a language model. It helps control the amount of context provided to the model, which can affect the relevance and coherence of the generated output. It also has an impact on token cost.",
+  "frequency_penalty": "Frequency penalty penalizes new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.",
+  "presence_penalty": "Presence penalty penalizes new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics."
+}
