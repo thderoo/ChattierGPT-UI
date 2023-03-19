@@ -5,6 +5,8 @@ ChattierGPT is a Python application for local use (colab version coming soon) th
 
 ChattierGPT has a simple and complete interface, offering a compromise between what the official OpenAI chat interface allows and the advanced options of the developer API.
 
+This tool is still in beta, bug reports and improvements are welcome!
+
 ## How to use
 
 ### Windows
