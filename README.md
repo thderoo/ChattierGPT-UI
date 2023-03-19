@@ -58,6 +58,11 @@ Features marked with "💬" are available in chat.openai.com, those with "🤖" 
 - More customization, including custom add-on support
 - Feel free to suggest other additions!
 
+## Screenshots
+
+![Main window](screenshot1.png)
+![Parameters](screenshot2.png)
+
 ## About the API
 
 This tool is only intended to interact with the official OpenAI API, I do not plan to make it compatible with chat.openai.com in the near future.
