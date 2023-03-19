@@ -18,7 +18,7 @@ Available soon.
 Installation of the required packages:
 
 ```
-pip -r requiremets.txt
+pip install -r requiremets.txt
 ```
 
 Launching the UI:
