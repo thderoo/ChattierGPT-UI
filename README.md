@@ -11,6 +11,7 @@ This tool is still in beta, bug reports and improvements are welcome!
 
 ### Windows
 
+- Download the latest release
 - Unzip the folder
 - Run ChattierGPT
 - A console window should open, wait for the application to launch in your browser, or go to the url displayed on the console.
