@@ -11,19 +11,14 @@ This tool is still in beta, bug reports and improvements are welcome!
 
 ### Windows
 
-- Download the latest release
-- Unzip the folder
-- Run ChattierGPT
-- A console window should open, wait for the application to launch in your browser, or go to the url displayed on the console.
-
-The first launch requires an internet connection and may take a few minutes, please wait while python installs the necessary packages.
+Coming soon
 
 ### From a Python environment
 
 Installation of the required packages:
 
 ```
-pip install -r requiremets.txt
+pip install -r requirements.txt
 ```
 
 Launching the UI:
