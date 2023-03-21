@@ -4,7 +4,6 @@ import json
 import openai as oa
 import tiktoken as tt
 
-
 class Chat:
     def __init__(self, created=None, model='gpt-3.5-turbo', context=None, temperature=0.7, top_p=1.0, max_tokens=512,
                  max_context_tokens=4096, frequency_penalty=0.0, presence_penalty=0.0):
@@ -99,6 +98,7 @@ class Chat:
         else:
             path = self.get_selected_path(length=index)
 
+        i = 1
         token_count = self.messages['tokens']
         for i, m in list(enumerate(path))[1:][::-1]:
             if token_count + m['tokens'] <= self.max_context_tokens:

@@ -151,12 +151,12 @@ with st.expander('Parameters'):
                                        help=tooltips['top_p'])
 
     with col2:
-        current_chat.max_tokens = st.slider('Maximum length', min_value=1, max_value=2048,
-                                            value=current_chat.max_tokens, help=tooltips['max_tokens'])
+        current_chat.max_tokens = st.slider('Maximum length', min_value=1, max_value=min(4096 - system_tokens - 1, 2048),
+                                            value=min(current_chat.max_tokens, 4096 - system_tokens - 1), help=tooltips['max_tokens'])
 
         current_chat.max_context_tokens = st.slider('Maximum context length', min_value=system_tokens,
                                                     max_value=4096 - current_chat.max_tokens,
-                                                    value=max(system_tokens, current_chat.max_context_tokens),
+                                                    value=min(4096 - current_chat.max_tokens, max(system_tokens, current_chat.max_context_tokens)),
                                                     help=tooltips['max_context_tokens'])
 
     with col3:
